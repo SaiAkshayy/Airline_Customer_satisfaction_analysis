@@ -1,0 +1,2 @@
+# airline_customer_satisfaction
+ The Project focuses on predicting future customer satisfaction based on the given information about their flight. The information is based on customer feedback from an unnamed airline and given the name Invistco Airlines for the project.  The project aims to identify what factors result in satisfied customers and to use this information to convert neutral and dissatisfied customers into satisfied ones. 
