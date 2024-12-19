@@ -12,7 +12,7 @@ This project predicts customer satisfaction for a fictional airline (Invistco Ai
 
 • Demographics: Majority aged 20-60, slight female majority.
 
-• Satisfaction Levels:
+**Satisfaction Levels:**
 
 • Business Class: Highest satisfaction (48%).
 
