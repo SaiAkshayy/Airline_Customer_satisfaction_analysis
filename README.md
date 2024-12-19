@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project predicts customer satisfaction for Invistco Airlines based on customer feedback. The goal is to identify key factors influencing satisfaction and provide actionable insights to convert neutral or dissatisfied customers into satisfied ones.
+This project predicts customer satisfaction for a fictional airline (Invistco Airlines), created solely for this analysis, based on customer feedback. The goal is to identify key factors influencing satisfaction and provide actionable insights to convert neutral or dissatisfied customers into satisfied ones.
 
 ## Key Insights
 
