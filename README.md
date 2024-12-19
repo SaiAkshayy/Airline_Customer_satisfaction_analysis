@@ -1,10 +1,10 @@
 # Airline Customer Satisfaction Analysis
 
-**Overview**
+## Overview
 
 This project predicts customer satisfaction for Invistco Airlines based on customer feedback. The goal is to identify key factors influencing satisfaction and provide actionable insights to convert neutral or dissatisfied customers into satisfied ones.
 
-# Key Insights
+## Key Insights
 
 **Exploratory Data Analysis**
 
@@ -24,7 +24,7 @@ This project predicts customer satisfaction for Invistco Airlines based on custo
 
 Suggested Visual: A bar chart showing customer satisfaction levels by class (e.g., Business, Economy Plus, Economy).
 
-# Predictive Modeling
+## Predictive Modeling
 
 *Best Models:*
 
@@ -40,7 +40,7 @@ Suggested Visual: A bar chart showing customer satisfaction levels by class (e.g
 
 Suggested Visual: A table or graph comparing model accuracies and AUC scores across subsets.
 
-# Potential Results and Impacts
+## Potential Results and Impacts
 
 • By improving the top influential features, the analysis predicts:
 
@@ -60,7 +60,7 @@ A cost-benefit bar graph showing the profitability of improving different featur
 
 Pie charts representing satisfaction levels for loyal vs. disloyal customers.
 
-# Recommendations
+## Recommendations
 
 Focus on Key Features: Invest in inflight Wi-Fi, online boarding, and entertainment for the highest cost-benefit ratio.
 
@@ -68,13 +68,13 @@ Address High Dissatisfaction Areas: Target dissatisfied Economy passengers with 
 
 Retention Strategies: Offer discounts or rewards to disloyal customers to improve satisfaction and prevent churn.
 
-# Limitations
+## Limitations
 
 Data Gaps: Missing details like ticket prices and inflight service costs make precise cost-benefit calculations challenging.
 
 Satisfaction Metric: A binary classification (satisfied vs. dissatisfied/neutral) limits the granularity of analysis. A numerical satisfaction score would allow more detailed insights.
 
-# Conclusion
+## Conclusion
 
 Investing in inflight Wi-Fi, online boarding, and entertainment improvements can significantly boost satisfaction and profits. Prioritize tailored services for dissatisfied demographics and implement retention strategies for long-term growth.
 
