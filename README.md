@@ -8,49 +8,49 @@ This project predicts customer satisfaction for a fictional airline (Invistco Ai
 
 **Exploratory Data Analysis**
 
-• Dataset: 130K rows, minimal missing data (filled appropriately).
+- Dataset: 130K rows, minimal missing data (filled appropriately).
 
-• Demographics: Majority aged 20-60, slight female majority.
+- Demographics: Majority aged 20-60, slight female majority.
 
 **Satisfaction Levels:**
 
-• Business Class: Highest satisfaction (48%).
+- Business Class: Highest satisfaction (48%).
 
-• Economy Plus: Moderate satisfaction (7%).
+- Economy Plus: Moderate satisfaction (7%).
 
-• Economy: Areas for improvement (45%).
+- Economy: Areas for improvement (45%).
 
-• Top Factors: Online boarding, inflight entertainment, and convenience of departure/arrival times.
+- Top Factors: Online boarding, inflight entertainment, and convenience of departure/arrival times.
 
 Suggested Visual: A bar chart showing customer satisfaction levels by class (e.g., Business, Economy Plus, Economy).
 
 ## Predictive Modeling
 
-*Best Models:*
+### *Best Models:*
 
-• Random Forest Classifier (Accuracy: ~96%, AUC: ~99%) for most subsets.
+- Random Forest Classifier (Accuracy: ~96%, AUC: ~99%) for most subsets.
 
-• Gradient Boosting Classifier for specific cases (e.g., Economy Plus).
+- Gradient Boosting Classifier for specific cases (e.g., Economy Plus).
 
-*Approach:*
+### *Approach:*
 
-• 60/40 data split for training/testing.
+- 60/40 data split for training/testing.
 
-• Recursive feature elimination to identify top contributors to satisfaction.
+- Recursive feature elimination to identify top contributors to satisfaction.
 
 Suggested Visual: A table or graph comparing model accuracies and AUC scores across subsets.
 
 ## Potential Results and Impacts
 
-• By improving the top influential features, the analysis predicts:
+- By improving the top influential features, the analysis predicts:
 
-• Inflight Wi-Fi Service: Increasing satisfaction here can yield profits of over $20K.
+- Inflight Wi-Fi Service: Increasing satisfaction here can yield profits of over $20K.
 
-• Online Boarding: Improvements in this area result in a substantial boost to customer satisfaction and convenience.
+- Online Boarding: Improvements in this area result in a substantial boost to customer satisfaction and convenience.
 
-• Inflight Entertainment: Predicted profit impact of ~$10K.
+- Inflight Entertainment: Predicted profit impact of ~$10K.
 
-• Ease of Online Booking: Enhancements can bring ~$3.5K profit.
+- Ease of Online Booking: Enhancements can bring ~$3.5K profit.
 
 These improvements not only increase satisfaction but also enhance customer retention, especially in the economy class, which shows 60% dissatisfaction. Additionally, disloyal customers can be converted with targeted offers and discounts, maximizing revenue and reducing churn.
 
@@ -62,17 +62,17 @@ Pie charts representing satisfaction levels for loyal vs. disloyal customers.
 
 ## Recommendations
 
-Focus on Key Features: Invest in inflight Wi-Fi, online boarding, and entertainment for the highest cost-benefit ratio.
+- Focus on Key Features: Invest in inflight Wi-Fi, online boarding, and entertainment for the highest cost-benefit ratio.
 
-Address High Dissatisfaction Areas: Target dissatisfied Economy passengers with tailored services and incentives.
+- Address High Dissatisfaction Areas: Target dissatisfied Economy passengers with tailored services and incentives.
 
-Retention Strategies: Offer discounts or rewards to disloyal customers to improve satisfaction and prevent churn.
+- Retention Strategies: Offer discounts or rewards to disloyal customers to improve satisfaction and prevent churn.
 
 ## Limitations
 
-Data Gaps: Missing details like ticket prices and inflight service costs make precise cost-benefit calculations challenging.
+- Data Gaps: Missing details like ticket prices and inflight service costs make precise cost-benefit calculations challenging.
 
-Satisfaction Metric: A binary classification (satisfied vs. dissatisfied/neutral) limits the granularity of analysis. A numerical satisfaction score would allow more detailed insights.
+- Satisfaction Metric: A binary classification (satisfied vs. dissatisfied/neutral) limits the granularity of analysis. A numerical satisfaction score would allow more detailed insights.
 
 ## Conclusion
 
