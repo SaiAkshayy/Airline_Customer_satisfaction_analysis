@@ -43,12 +43,12 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
 ### **Profit and Costs**  
 - Profit per dissatisfied passenger turned satisfied: **$500** (assumed).  
 - Costs associated with increasing satisfaction by one unit for key variables:  
-  1. **Inflight Wi-Fi Service**: $80  
-  2. **Ease of Online Booking**: $60  
-  3. **Gate Location**: $140  
-  4. **Food and Drink**: $100  
-  5. **Online Boarding**: $70  
-  6. **Inflight Entertainment**: $50  
+  1. Inflight Wi-Fi Service: $80  
+  2. Ease of Online Booking: $60  
+  3. Gate Location: $140  
+  4. Food and Drink: $100  
+  5. Online Boarding: $70  
+  6. Inflight Entertainment: $50  
 
 ### **Key Observations**  
 1. **Highest ROI Features**:  
@@ -69,7 +69,3 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
 - The dataset lacked variables like ticket price and inflight costs, which could have enabled a more detailed analysis.  
 - Satisfaction was measured as a binary variable; a numerical scale (e.g., 1–10) could have provided richer insights.  
 - **Cost estimates and profit assumptions are theoretical and should be validated with real-world data for actionable business strategies.**
-
-
-## **Conclusion**  
-By leveraging advanced techniques like Recursive Feature Elimination and optimizing models such as Random Forest and Gradient Boosting, this analysis delivers actionable insights. Strategic improvements in cost-effective features can significantly enhance customer satisfaction, retention, and revenue for Invistco Airlines.  
