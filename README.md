@@ -58,7 +58,9 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
 2. **Moderate ROI Features**:  
    - Enhancements to **Inflight Entertainment**, **Ease of Online Booking**, and **Food and Drink** provided balanced returns.  
 3. **High Cost Features**:  
-   - Features like **Legroom Service** ($500 per unit) were deemed less practical for immediate investment due to their high costs.  
+   - Features like **Legroom Service** ($500 per unit) were deemed less practical for immediate investment due to their high costs.
+  
+  <img src = "https://github.com/user-attachments/assets/e6556b23-a028-40b7-bf7a-c5eaaa0b3dca" width = 900 height = 400 >
 
 
 ## **Business Recommendations**  
