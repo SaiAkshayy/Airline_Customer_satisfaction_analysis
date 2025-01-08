@@ -43,12 +43,12 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
 ### **Profit and Costs**  
 - Profit per dissatisfied passenger turned satisfied: **$500** (assumed).  
 - Costs associated with increasing satisfaction by one unit for key variables:  
- - Inflight Wi-Fi Service: $80  
- - Ease of Online Booking: $60  
- - Gate Location: $140  
- - Food and Drink: $100  
- - Online Boarding: $70  
- - Inflight Entertainment: $50  
+  - Inflight Wi-Fi Service: $80  
+  - Ease of Online Booking: $60  
+  - Gate Location: $140  
+  - Food and Drink: $100  
+  - Online Boarding: $70  
+  - Inflight Entertainment: $50  
 
 ### **Key Observations**  
 1. **Highest ROI Features**:  
