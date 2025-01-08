@@ -4,77 +4,72 @@
 
 This project predicts customer satisfaction for a fictional airline (Invistco Airlines), created solely for this analysis, based on customer feedback. The goal is to identify key factors influencing satisfaction and provide actionable insights to convert neutral or dissatisfied customers into satisfied ones.
 
-## Key Insights
 
-**Exploratory Data Analysis**
-
-- Dataset: 130K rows, minimal missing data (replaced "n/a" with "0").
-
-- Demographics: Majority aged 20-60, slight female majority.
-
-**Satisfaction Levels:**
-
-- Business Class: Highest satisfaction (48%).
-
-- Economy Plus: Moderate satisfaction (7%).
-
-- Economy: Areas for improvement (45%).
-
-- Top Factors: Online boarding, inflight entertainment, and convenience of departure/arrival times.
+## Key Insights from Exploratory Data Analysis (EDA) 
+- **Dataset**: ~130K rows, minimal missing data (393 rows in "Arrival Delay in Minutes" filled with 0).  
+- **Demographics**: Majority of passengers are aged 20–60, with a slight female majority.  
+- **Satisfaction Trends**:  
+  - **Highest Satisfaction**: Business travelers (69%) and Business Class passengers (48%).  
+  - **Top Features**: Online boarding, inflight entertainment, and departure/arrival convenience received high ratings.  
+  - **Improvement Areas**: Dissatisfaction was higher among younger (<25) and older (>65) age groups, and Economy Class passengers.  
 
 
-## Predictive Modeling
+## **Modeling Approach**  
+### **1. Methodology**  
+- **Data Splitting**: A 60-40 split for training and testing datasets was used to ensure robust evaluation.  
+- **Target Variable**: Customer satisfaction (binary: satisfied vs. neutral/dissatisfied).  
+- **Models Evaluated**:  
+  - Logistic Regression, Decision Tree, Bagging, Random Forest, Gradient Boosting, and K-Nearest Neighbors classifiers.  
 
-### *Best Models:*
+### **2. Recursive Feature Elimination (RFE)**  
+- To enhance model performance, **RFE** was used to iteratively identify and remove the weakest features.  
+- After feature reduction, models were retrained using the top predictive features, optimizing accuracy and interpretability.  
 
-- Random Forest Classifier (Accuracy: ~96%, AUC: ~99%) for most subsets.
+### **3. Key Metrics**  
+- **Accuracy**: Proportion of correctly classified instances.  
+- **AUC (Area Under the Curve)**: Measures model performance across classification thresholds.  
 
-- Gradient Boosting Classifier for specific cases (e.g., Economy Plus).
+**Top Performing Models**:  
+- **Entire Dataset**: Random Forest Classifier (95.96% accuracy, 99.31% AUC).  
+- **Subset Analyses**:  
+  - Random Forest excelled in Business Class, loyal customers, and most age groups.  
+  - Gradient Boosting outperformed in Economy Plus, disloyal customers, and older passengers (>65).  
 
-### *Approach:*
 
-- 60/40 data split for training/testing.
+## **Cost-Profit Analysis**  
+### **Assumptions and Theory**  
+The cost-profit analysis presented below is **theoretical** and based on assumed values. While these estimates are illustrative, they provide a framework to evaluate the business impact of feature improvements.
 
-- Recursive feature elimination to identify top contributors to satisfaction.
+### **Profit and Costs**  
+- Profit per dissatisfied passenger turned satisfied: **$500** (assumed).  
+- Costs associated with increasing satisfaction by one unit for key variables:  
+  1. **Inflight Wi-Fi Service**: $80  
+  2. **Ease of Online Booking**: $60  
+  3. **Gate Location**: $140  
+  4. **Food and Drink**: $100  
+  5. **Online Boarding**: $70  
+  6. **Inflight Entertainment**: $50  
 
-Suggested Visual: A table or graph comparing model accuracies and AUC scores across subsets.
+### **Key Observations**  
+1. **Highest ROI Features**:  
+   - Improving **Inflight Wi-Fi Service** and **Online Boarding** yielded the highest return due to low costs and high impact on satisfaction.  
+2. **Moderate ROI Features**:  
+   - Enhancements to **Inflight Entertainment**, **Ease of Online Booking**, and **Food and Drink** provided balanced returns.  
+3. **High Cost Features**:  
+   - Features like **Legroom Service** ($500 per unit) were deemed less practical for immediate investment due to their high costs.  
 
-## Potential Results and Impacts
 
-- By improving the top influential features, the analysis predicts:
+## **Business Recommendations**  
+1. **Focus on Cost-Efficient Improvements**: Prioritize **Inflight Wi-Fi**, **Online Boarding**, and **Inflight Entertainment** for maximum profitability.  
+2. **Targeted Efforts**: Develop loyalty strategies and incentives for disloyal or dissatisfied customer segments.  
+3. **Class-Specific Enhancements**: Address dissatisfaction in Economy Class and personalize services for younger and older passengers.  
 
-- Inflight Wi-Fi Service: Increasing satisfaction here can yield profits of over $20K.
 
-- Online Boarding: Improvements in this area result in a substantial boost to customer satisfaction and convenience.
+## **Limitations**  
+- The dataset lacked variables like ticket price and inflight costs, which could have enabled a more detailed analysis.  
+- Satisfaction was measured as a binary variable; a numerical scale (e.g., 1–10) could have provided richer insights.  
+- **Cost estimates and profit assumptions are theoretical and should be validated with real-world data for actionable business strategies.**
 
-- Inflight Entertainment: Predicted profit impact of ~$10K.
 
-- Ease of Online Booking: Enhancements can bring ~$3.5K profit.
-
-These improvements not only increase satisfaction but also enhance customer retention, especially in the economy class, which shows 60% dissatisfaction. Additionally, disloyal customers can be converted with targeted offers and discounts, maximizing revenue and reducing churn.
-
-**Suggested Visuals:**
-
-A cost-benefit bar graph showing the profitability of improving different features.
-
-Pie charts representing satisfaction levels for loyal vs. disloyal customers.
-
-## Recommendations
-
-- Focus on Key Features: Invest in inflight Wi-Fi, online boarding, and entertainment for the highest cost-benefit ratio.
-
-- Address High Dissatisfaction Areas: Target dissatisfied Economy passengers with tailored services and incentives.
-
-- Retention Strategies: Offer discounts or rewards to disloyal customers to improve satisfaction and prevent churn.
-
-## Limitations
-
-- Data Gaps: Missing details like ticket prices and inflight service costs make precise cost-benefit calculations challenging.
-
-- Satisfaction Metric: A binary classification (satisfied vs. dissatisfied/neutral) limits the granularity of analysis. A numerical satisfaction score would allow more detailed insights.
-
-## Conclusion
-
-Investing in inflight Wi-Fi, online boarding, and entertainment improvements can significantly boost satisfaction and profits. Prioritize tailored services for dissatisfied demographics and implement retention strategies for long-term growth.
-
-Suggested Final Visual: A summary infographic showing overall model performance, key findings, and recommendations.
+## **Conclusion**  
+By leveraging advanced techniques like Recursive Feature Elimination and optimizing models such as Random Forest and Gradient Boosting, this analysis delivers actionable insights. Strategic improvements in cost-effective features can significantly enhance customer satisfaction, retention, and revenue for Invistco Airlines.  
