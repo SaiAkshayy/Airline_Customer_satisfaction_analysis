@@ -8,7 +8,7 @@ This project predicts customer satisfaction for a fictional airline (Invistco Ai
 
 **Exploratory Data Analysis**
 
-- Dataset: 130K rows, minimal missing data (filled appropriately).
+- Dataset: 130K rows, minimal missing data.
 
 - Demographics: Majority aged 20-60, slight female majority.
 
@@ -22,7 +22,6 @@ This project predicts customer satisfaction for a fictional airline (Invistco Ai
 
 - Top Factors: Online boarding, inflight entertainment, and convenience of departure/arrival times.
 
-Suggested Visual: A bar chart showing customer satisfaction levels by class (e.g., Business, Economy Plus, Economy).
 
 ## Predictive Modeling
 
