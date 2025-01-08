@@ -46,12 +46,19 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
 ### **__Profit and Costs__**  
 - Profit per dissatisfied passenger turned satisfied: **$500** (assumed).  
 - Costs associated with increasing satisfaction by one unit for key variables:  
-  - Inflight Wi-Fi Service: $80  
-  - Ease of Online Booking: $60  
-  - Gate Location: $140  
-  - Food and Drink: $100  
-  - Online Boarding: $70  
-  - Inflight Entertainment: $50  
+  1. Flight Distance: $400
+  2. Inflight Wifi Service: $80
+  3. Ease of Online Booking: $60
+  4. Gate location: $140
+  5. Online Boarding: $70
+  6. Seat Comfort: $110
+  7. Inflight Entertainment: $50
+  8. On-board Service: $30
+  9. Leg-room Service: $500 
+  10. Baggage Handling: $20
+  11. Check-in Service: $20
+  12. Inflight Service: $40
+  13. Cleanliness: $20
 
 ### **__Key Observations__**  
 1. **Highest ROI Features**:  
@@ -63,6 +70,7 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
   
   <img src = "https://github.com/user-attachments/assets/209739ea-a6fa-4865-bf8b-f037ae5de89e" width = 900 height = 400 >
 
+Decision performance analysis highlights that Inflight WiFi Service and Online Boarding are the most profitable features in terms of cost-benefit. Enhancements to these features could generate over $20,000 in additional revenue. Following these, Inflight Entertainment and Ease of Online Booking offer substantial benefits, with potential yields of approximately $10,000 and $3,500, respectively.
 
 ## **Business Recommendations**  
 1. **Focus on Cost-Efficient Improvements**: Prioritize **Inflight Wi-Fi**, **Online Boarding**, and **Inflight Entertainment** for maximum profitability.  
