@@ -6,7 +6,8 @@ This project predicts customer satisfaction for a fictional airline (Invistco Ai
 
 
 ## Key Insights from Exploratory Data Analysis (EDA) 
-- **Dataset**: ~130K rows, minimal missing data (393 rows in "Arrival Delay in Minutes" filled with 0).  
+- **Dataset**: ~130K rows, minimal missing data (393 rows in "Arrival Delay in Minutes" filled with 0).
+  (https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction) 
 - **Demographics**: Majority of passengers are aged 20–60, with a slight female majority.  
 - **Satisfaction Trends**:  
   - **Highest Satisfaction**: Business travelers (69%) and Business Class passengers (48%).  
