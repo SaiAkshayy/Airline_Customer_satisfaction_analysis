@@ -25,7 +25,7 @@ This project predicts customer satisfaction for a fictional airline (Invistco Ai
 - To enhance model performance, **RFE** was used to iteratively identify and remove the weakest features.  
 - After feature reduction, models were retrained using the top predictive features, optimizing accuracy and interpretability.
 
-<img src = "https://github.com/user-attachments/assets/e6556b23-a028-40b7-bf7a-c5eaaa0b3dca" width = 700 height = 500 >
+<img src = "https://github.com/user-attachments/assets/e6556b23-a028-40b7-bf7a-c5eaaa0b3dca" width = 900 height = 400 >
 
 ### **3. Key Metrics**  
 - **Accuracy**: Proportion of correctly classified instances.  
