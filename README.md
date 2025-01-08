@@ -40,7 +40,7 @@ This project predicts customer satisfaction for a fictional airline (Invistco Ai
 ### **Assumptions and Theory**  
 The cost-profit analysis presented below is **theoretical** and based on assumed values. While these estimates are illustrative, they provide a framework to evaluate the business impact of feature improvements.
 
-### **Profit and Costs**  
+### **__Profit and Costs__**  
 - Profit per dissatisfied passenger turned satisfied: **$500** (assumed).  
 - Costs associated with increasing satisfaction by one unit for key variables:  
   - Inflight Wi-Fi Service: $80  
@@ -50,7 +50,7 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
   - Online Boarding: $70  
   - Inflight Entertainment: $50  
 
-### **Key Observations**  
+### **__Key Observations__**  
 1. **Highest ROI Features**:  
    - Improving **Inflight Wi-Fi Service** and **Online Boarding** yielded the highest return due to low costs and high impact on satisfaction.  
 2. **Moderate ROI Features**:  
