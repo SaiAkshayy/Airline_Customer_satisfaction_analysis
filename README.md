@@ -46,8 +46,8 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
 ### **__Profit and Costs__**  
 - Profit per dissatisfied passenger turned satisfied: **$500** (assumed).  
 - Costs associated with increasing satisfaction by one unit for key variables:  
-  **1**. Flight Distance: $400
-  **2**. Inflight Wifi Service: $80
+  - 1. Flight Distance: $400
+  - 2. Inflight Wifi Service: $80
   **3**. Ease of Online Booking: $60
   **4**. Gate location: $140
   **5**. Online Boarding: $70
