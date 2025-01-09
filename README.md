@@ -66,6 +66,7 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
    - Features like **Legroom Service** ($500 per unit) were deemed less practical for immediate investment due to their high costs.
   
   <img src = "https://github.com/user-attachments/assets/209739ea-a6fa-4865-bf8b-f037ae5de89e" width = 900 height = 400 >
+  
 
 Decision performance analysis highlights that Inflight WiFi Service and Online Boarding are the most profitable features in terms of cost-benefit. Enhancements to these features could generate over $20,000 in additional revenue. Following these, Inflight Entertainment and Ease of Online Booking offer substantial benefits, with potential yields of approximately $10,000 and $3,500, respectively.
 
