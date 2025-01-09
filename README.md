@@ -49,14 +49,13 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
 1. Flight Distance: $400
 2. Inflight Wifi Service: $80
 3. Ease of Online Booking: $60
-4. Gate location: $140
-5. Online Boarding: $70
-7. Inflight Entertainment: $50
-8. On-board Service: $30
-9. Leg-room Service: $500 
-10. Baggage Handling: $20
-11. Check-in Service: $20
-12. Inflight Service: $40
+4. Online Boarding: $70
+5. Inflight Entertainment: $50
+6. On-board Service: $30
+7. Leg-room Service: $500 
+8. Baggage Handling: $20
+9. Check-in Service: $20
+10. Inflight Service: $40
 
 ### <ins>**__Key Observations__**  
 1. **Highest ROI Features**:  
