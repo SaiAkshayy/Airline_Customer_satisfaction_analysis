@@ -51,14 +51,12 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
 3. Ease of Online Booking: $60
 4. Gate location: $140
 5. Online Boarding: $70
-6. Seat Comfort: $110
 7. Inflight Entertainment: $50
 8. On-board Service: $30
 9. Leg-room Service: $500 
 10. Baggage Handling: $20
 11. Check-in Service: $20
 12. Inflight Service: $40
-13. Cleanliness: $20
 
 ### <ins>**__Key Observations__**  
 1. **Highest ROI Features**:  
