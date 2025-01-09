@@ -40,18 +40,18 @@ This project predicts customer satisfaction for a fictional airline (Invistco Ai
 
 
 ## **Cost-Profit Analysis**  
-### **Assumptions and Theory**  
+### <ins> **Assumptions and Theory**  
 The cost-profit analysis presented below is **theoretical** and based on assumed values. While these estimates are illustrative, they provide a framework to evaluate the business impact of feature improvements.
 
-### **__Profit and Costs__**  
+### <ins> **__Profit and Costs__**  
 - Profit per dissatisfied passenger turned satisfied: **$500** (assumed).  
 - Costs associated with increasing satisfaction by one unit for key variables:  
-    1. Flight Distance: $400
-    2. Inflight Wifi Service: $80
-  **3**. Ease of Online Booking: $60
-  **4**. Gate location: $140
-  **5**. Online Boarding: $70
-  **6**. Seat Comfort: $110
+1. Flight Distance: $400
+2. Inflight Wifi Service: $80
+3. Ease of Online Booking: $60
+4. Gate location: $140
+5. Online Boarding: $70
+6. Seat Comfort: $110
   **7**. Inflight Entertainment: $50
   **8**. On-board Service: $30
   **9**. Leg-room Service: $500 
@@ -60,7 +60,7 @@ The cost-profit analysis presented below is **theoretical** and based on assumed
   **12**. Inflight Service: $40
   **13**. Cleanliness: $20
 
-### **__Key Observations__**  
+### <ins>**__Key Observations__**  
 1. **Highest ROI Features**:  
    - Improving **Inflight Wi-Fi Service** and **Online Boarding** yielded the highest return due to low costs and high impact on satisfaction.  
 2. **Moderate ROI Features**:  
